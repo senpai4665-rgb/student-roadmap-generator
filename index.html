@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Roadmap Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Student Roadmap Generator</h1>
+    <p>Select your goal and get a learning roadmap</p>
+
+    <select id="goal">
+        <option value="">-- Select Your Goal --</option>
+        <option value="web">Web Developer</option>
+        <option value="data">Data Scientist</option>
+        <option value="android">Android Developer</option>
+        <option value="ai">AI / Machine Learning</option>
+        <option value="startup">Startup Founder</option>
+    </select>
+
+    <button onclick="generateRoadmap()">Generate Roadmap</button>
+
+    <div id="roadmap" class="roadmap"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
